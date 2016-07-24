@@ -2,7 +2,7 @@ url:
 baseurl: # /pairing-meetup
 
 # Site settings
-title: DTLA Pair Programming
+title: Fullstack LA
 email:
 description: "DTLA pair programming night MeetUp. We are a meet up in downtown
               LA focusing on pair programming. the meetup time consists of
@@ -19,18 +19,16 @@ color:
 people:
 - name: Machiko Yasuda
   pic: 1
-  position: co-orgainizer
+  position: orgainizer
   social:
     - title: twitter
       url: https://twitter.com/machikoyasuda
     - title: facebook
       url: #
-    - title: stack-overflow
-      url: #
 
 - name: Kit Pearson
   pic: 2
-  position: co-organizer
+  position: organizer
   social:
     - title: twitter
       url: https://twitter.com/kit_pearson
@@ -39,29 +37,12 @@ people:
     - title: linkedin
       url: #
 
-- name: #
-  pic:
-  position: #
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/fullstackla
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/fullstackla
 
 # Postal address (add as many lines as necessary)
 address:
