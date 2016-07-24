@@ -1,3 +1,4 @@
+
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -59,6 +60,44 @@ h6 {
 
 .img-centered {
     margin: 0 auto;
+    max-width: 13em;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: max-width 1s, -webkit-filter 3s;
+    transition: max-width 1s, filter 3s;
+}
+
+img:hover {
+    max-width: 14em;
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.text-logo-centered {
+    color: gray;
+    font-size: 2em;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 2s;
+    transition: all 2s;
+     
+}
+
+
+.text-logo-centered:hover {
+    color: gray;
+    margin: 0 auto;
+    padding: 5px 10px 5px 10px;
+    text-align: right;
+    font-size: 2.2em;
+    background-color: #F6E05A;
+    -webkit-filter: grayscale(0);
+}
+
+.jsla {
+    font-family: Arimo, sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
 .bg-light-gray {
@@ -176,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
 }
 
@@ -314,7 +353,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -649,8 +688,17 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
+aside.sponsors img {
     margin: 50px auto;
+}
+
+aside.friends {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.friends a:hover {
+    text-decoration: none
 }
 
 section#contact {
