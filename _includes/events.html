@@ -3,12 +3,11 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Events</h2>
-        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
       </div>
     </div>
     <div class="row">
       {% for event in site.events %}
-      <div class="col-lg-10 col-lg-offset-1">
+      <div class="col-lg-10 col-lg-offset-1 event">
           <h1>{{ event.title }}</h1>
           <h4>Join us {{ event.event-date }} at {{ event.location }} </h4>
           {{ event.content }}
