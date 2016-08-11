@@ -1,0 +1,11 @@
+$primary:         #fed136 !default;
+$secondary:       #fec503 !default;
+$secondary-dark:  #333    !default;
+$brand-font:      "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+// Bootstrap Overrides
+$navbar-inverse-bg:               #333;
+$brand-primary:                   $primary;
+$link-color:                      $secondary;
+$navbar-inverse-brand-color:      $primary;
+$navbar-inverse-link-hover-color: $primary;

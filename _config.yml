@@ -46,9 +46,12 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 362 E 2nd St,
-  - line: Los Angeles, CA 90012
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+sass:
+    sass_dir: _sass
+
+collections:
+  events:
+    output: true

@@ -1,29 +1,79 @@
-<!-- Portfolio Grid Section -->
 <section id="events" class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Events</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </div>
-        </div>
-        <div class="row">
-            {% for post in site.posts %}
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>{{ post.title }}</h4>
-                    <p class="text-muted">{{ post.subtitle }}</p>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Events</h2>
+        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+      </div>
     </div>
+    <div class="row">
+      {% for event in site.events %}
+      <div class="col-lg-10 col-lg-offset-1">
+          <h1>{{ event.title }}</h1>
+          <h4>Join us {{ event.event-date }} at {{ event.location }} </h4>
+          {{ event.content }}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!&#45;&#45; Portfolio Grid Section &#45;&#45;> -->
+<!-- <section id="events" class="bg&#45;light&#45;gray"> -->
+<!--     <div class="container"> -->
+<!--         <div class="row"> -->
+<!--             <div class="col&#45;lg&#45;12 text&#45;center"> -->
+<!--                 <h2 class="section&#45;heading">Events</h2> -->
+<!--                 <h3 class="section&#45;subheading text&#45;muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+<!--             </div> -->
+<!--         </div> -->
+<!--         <div class="row"> -->
+<!--             {% for post in site.posts %} -->
+<!--             <div class="col&#45;md&#45;4 col&#45;sm&#45;6 portfolio&#45;item"> -->
+<!--                 <a href="#portfolioModal{{ post.modal&#45;id }}" class="portfolio&#45;link" data&#45;toggle="modal"> -->
+<!--                     <div class="portfolio&#45;hover"> -->
+<!--                         <div class="portfolio&#45;hover&#45;content"> -->
+<!--                             <i class="fa fa&#45;plus fa&#45;3x"></i> -->
+<!--                         </div> -->
+<!--                     </div> -->
+<!--                     <img src="img/portfolio/{{ post.thumbnail }}" class="img&#45;responsive" alt=""> -->
+<!--                 </a> -->
+<!--                 <div class="portfolio&#45;caption"> -->
+<!--                     <h4>{{ post.title }}</h4> -->
+<!--                     <p class="text&#45;muted">{{ post.subtitle }}</p> -->
+<!--                 </div> -->
+<!--             </div> -->
+<!--             {% endfor %} -->
+<!--         </div> -->
+<!--     </div> -->
+<!-- </section> -->

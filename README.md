@@ -1,10 +1,15 @@
-# DTLA Pair Programming Night MeetUp Site
+# Fullstack LA
 
-we are a meet up in downtown la focusing on pair programming. the meetup time
-consists of coding challenges found in katrina owens' [exercism.io]. we also
-use [exercism.io] to build community outside of the meetup.
+Fullstack LA's main web site.
 
-## The Site
+Fullstack LA is meet up in Los Angeles focused on the coding and open source
+communities. Our mission is to encourage developer of all levels to grow there
+skills while contributing to open source projects.
+
+To date our events have centered around pair programing which brings with it a
+high level of participant engagement.
+
+## Fullstack LA Main Site
 
 This site is built on [Jekyll] and hosted on [Github pages].
 
