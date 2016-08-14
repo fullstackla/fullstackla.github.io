@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link rel="stylesheet" href="{{ "/assets/style.css" | prepend: site.baseurl }}">
-  </head>
-
-  <style>
-    {% include css/github-style-markdown.css %}
-  </style>
+  {% include head.html %}
 
   {% include navbar.html %}
 
-  <body id="page" class="index">
+  <div id="page" class="index">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
@@ -19,6 +13,6 @@
         </div>
       </div>
     </div>
-  </body>
+  </div>
 
 </html>

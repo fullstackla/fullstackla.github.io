@@ -18,7 +18,7 @@ color:
 # Team names, titles and social links
 people:
 - name: Machiko Yasuda
-  pic: 1
+  pic: machiko
   position: orgainizer
   social:
     - title: twitter
@@ -27,7 +27,7 @@ people:
       url: #
 
 - name: Kit Pearson
-  pic: 2
+  pic: kit
   position: organizer
   social:
     - title: twitter
