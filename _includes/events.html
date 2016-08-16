@@ -1,19 +1,22 @@
 <section id="events" class="bg-light-gray">
   <div class="container">
+
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Events</h2>
       </div>
     </div>
+
     <div class="row">
       {% for event in site.events %}
       <div class="col-lg-10 col-lg-offset-1 event">
           <h1>{{ event.title }}</h1>
-          <h4>Join us {{ event.event-date }} at {{ event.location }} </h4>
+          <h4>Join us {{ event.event-date }} at <a href="{{event.location_url}}" target="_blank">{{ event.location }}</a> </h4>
           {{ event.content }}
       </div>
       {% endfor %}
     </div>
+  
   </div>
 </section>
 
