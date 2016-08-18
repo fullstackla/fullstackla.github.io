@@ -49,6 +49,7 @@ address:
 
 # Build settings
 markdown: kramdown
+future: true
 sass:
     sass_dir: _sass
 
