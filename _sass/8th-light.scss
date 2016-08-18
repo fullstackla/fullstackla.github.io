@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "fresco-italic";
+  src: url('fonts/fresco-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: "fresco-sans-regular";
+  src: url('fonts/fresco-sans-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: "fresco-sans-bold";
+  src: url('fonts/fresco-sans-bold.woff') format('woff');
+}
+
+.eighthlight {
+  float: right;
+  font-family: fresco-sans-bold;
+  font-size: 3em;
+  display: table;
+  img {
+    max-width: 20%;
+    float: left;
+    display: table-cell;
+    vertical-align: bottom;
+  }
+  a {
+    vertical-align: bottom;
+    color: darkgray;
+    padding-left: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+  }
+}
+
+mark.eighth {
+  color: #27a8e0;
+  background: none;
+}
