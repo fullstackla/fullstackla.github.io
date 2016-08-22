@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="{{ "/assets/style.css" | prepend: site.baseurl }}">
+  </head>
+
+  <style>
+    {% include css/github-style-markdown.css %}
+  </style>
+
+  {% include navbar.html %}
+
+  <body id="event" class="index">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

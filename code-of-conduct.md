@@ -5,9 +5,49 @@ layout: pages
 Code of Conduct
 ===============
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu mattis tortor. Pellentesque quis dui et nisi fermentum lacinia. Vivamus ut turpis vel mauris lobortis fringilla eu ac magna. Nam sit amet sem ut nibh rhoncus semper quis a nunc. Vestibulum eget eros vitae arcu maximus auctor vel a libero. Proin imperdiet viverra tellus, vitae porttitor felis condimentum nec. Donec eu ipsum viverra neque sagittis tincidunt nec nec magna. Integer orci sapien, vehicula non semper a, mollis a nibh. In non nulla lobortis, posuere turpis eget, dignissim tortor. Pellentesque elementum mauris id ultricies vehicula. Suspendisse potenti. Vivamus in ante vulputate nulla eleifend fringilla. Sed quis posuere ligula, et mattis dolor. Etiam ut turpis id nisl rhoncus maximus. Proin ornare vel nisl quis ullamcorper.</p> 
-<p>Donec iaculis diam et ante mattis pharetra. Aenean viverra nibh bibendum, aliquet tortor sed, suscipit mauris. Ut lacinia porttitor enim, at auctor dolor suscipit a. Praesent auctor felis nunc, sit amet volutpat nulla laoreet at. Suspendisse dictum purus a tincidunt pulvinar. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi aliquet, arcu ac maximus volutpat, dui ipsum elementum risus, sed mattis magna justo ut elit. In ut viverra erat.</p> 
-<p>Donec velit lectus, feugiat eget scelerisque a, tincidunt vel ex. Integer nec dolor sit amet metus tincidunt porta. Aliquam erat volutpat. Vivamus luctus rhoncus lacinia. Pellentesque molestie malesuada neque, ut suscipit ex ornare quis. Fusce pretium, ipsum in porttitor dictum, orci velit consequat erat, varius dictum mauris diam posuere dolor. In venenatis egestas lacinia. Donec pulvinar pharetra auctor. Vestibulum eget scelerisque dolor.</p> 
-<p>Aenean nec ornare urna. Proin non tortor sed dui aliquet mattis eu in arcu. Nam a sapien sit amet dolor ultricies pretium. Mauris volutpat hendrerit volutpat. Aenean euismod sit amet felis ac vulputate. Integer viverra sem in augue lobortis, non pellentesque metus aliquet. Sed ultrices lacus eu ex vehicula dignissim. Nullam a auctor arcu. Aenean egestas sollicitudin augue.</p> 
-<p>Phasellus feugiat sodales felis, at rhoncus dolor. Maecenas in ornare nunc. Vestibulum condimentum vestibulum enim id vulputate. Quisque et nunc ullamcorper, auctor arcu quis, tincidunt nisl. Sed velit purus, egestas et orci eu, cursus dictum metus. Aliquam vitae velit sit amet massa tincidunt elementum. Curabitur eu purus sagittis, cursus erat ut, cursus enim. Nullam dapibus, odio ac rutrum aliquet, augue erat fringilla dui, ut porttitor lacus nisl ut est. Sed ac porta erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In urna dolor, sagittis vel pharetra a, pulvinar sit amet eros. Phasellus pulvinar nulla metus, sit amet luctus quam placerat auctor. Curabitur nulla quam, ullamcorper sit amet molestie at, iaculis vitae orci. Integer viverra felis at neque condimentum, quis ullamcorper sem vehicula. Nunc pulvinar molestie ipsum a eleifend. Vivamus in tincidunt massa, non pharetra neque.</p> 
+Our code of conduct is inspired by the same values as [Girl Develop It](https://www.girldevelopit.com/code-of-conduct){:target="_blank"}.
+
+**PURPOSE**
+
+Fullstack LA provides: 
+
+> *a <strong>harassment-free community</strong> and learning experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, or religion. We expect all attendees to show respect and courtesy to other attendees throughout &#91;Fullstack LA&#93; classes and events. Sexual language and imagery is not appropriate for any &#91;Fullstack LA&#93; event. &#91;Fullstack LA&#93; participants violating these rules may be sanctioned or expelled from our events or online discussion boards at the discretion of the event organizers.*
+
+**HARASSMENT**
+
+Harassment includes: 
+
++ offensive verbal comments related to 
+    - gender, 
+    - gender identity and expression, 
+    - sexual orientation, 
+    - disability, 
+    - physical appearance, 
+    - body size, 
+    - race, or 
++ religion; 
++ sexual images in public spaces; 
++ deliberate intimidation; 
++ stalking; 
++ following; 
++ harassing photography or recording; 
++ sustained disruption of talks or other events; 
++ inappropriate physical contact; and 
++ unwelcome sexual attention. 
+
+All communication should be appropriate for a professional audience. Participants asked to stop any harassing behavior are expected to comply immediately.
+
+**PRIVACY CONCERNS**
+
+Your privacy is important to us. While photographs may be taken in class and can be shared by group members in the group’s meetup page, *no photograph shall be used for promotional purposes without verbal and/or written consent of the attendees.* If a group photograph is taken, your participation will serve as your agreement to the use of such a photograph for &#91;Fullstack LA&#93; promotional purposes. *<strong>If you are uncomfortable having your photograph shared</strong>, please let us know.*
+
+**USE OF SEXUALIZED IMAGERY**
+
+Teachers, event organizers, volunteers, and hosts are also subject to the anti-harassment policy. In particular, teachers/hosts/organizers should not use sexualized images, activities, or other material. &#91;FSLA&#93; organizers, teachers, teachers assistants, and event hosts (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
+
+**CONSEQUENCES OF UNACCEPTABLE BEHAVIOR**
+
+If a participant engages in harassing behavior, the &#91;Fullstack LA&#93; organizers may take any action they deem appropriate, including warning the offender or expelling them from the class/event/meetup group.
+
+
 
