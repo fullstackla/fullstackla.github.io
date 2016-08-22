@@ -1,7 +1,7 @@
 ---
 layout: events
 title: Open source
-event-date: August 10th
+event-date: August 20th
 location: MaxCDN
 tag-line: Contribute to open source!
 rsvp: https://www.meetup.com/la-fullstack/events/233276392/
