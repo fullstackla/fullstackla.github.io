@@ -18,24 +18,26 @@ color:
 # Team names, titles and social links
 people:
 - name: Machiko Yasuda
-  pic: machiko
-  position: orgainizer
+  pic: 1
+  position: organizer
   social:
     - title: twitter
       url: https://twitter.com/machikoyasuda
-    - title: facebook
-      url: #
+    - title: Github
+      url: https://github.com/machikoyasuda
+    - title: Github Page
+      url: http://machikoyasuda.github.io/work/
 
 - name: Kit Pearson
-  pic: kit
+  pic: 2
   position: organizer
   social:
     - title: twitter
       url: https://twitter.com/kit_pearson
-    - title: facebook
-      url: #
+    - title: Github
+      url: https://github.com/kpearson
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/kit-pearson-2228977
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -49,7 +51,6 @@ address:
 
 # Build settings
 markdown: kramdown
-future: true
 sass:
     sass_dir: _sass
 
