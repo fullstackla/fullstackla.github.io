@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: Call For Proposals 
+title: Call For Proposals
 ---
 
 Have an open source project you want to bring some attention to?
