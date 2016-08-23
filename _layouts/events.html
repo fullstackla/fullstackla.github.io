@@ -9,6 +9,12 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <h1>{{ page.title }}</h1>
+          <h4>
+            Join us {{ page.event-date }}
+            {% if page.location != nil %}
+              at {{ page.location }}
+            {% endif %}
+          </h4>
           {{ content }}
         </div>
       </div>
