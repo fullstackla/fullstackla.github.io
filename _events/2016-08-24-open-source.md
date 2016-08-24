@@ -1,7 +1,7 @@
 ---
 layout: events
 title: Open source
-event-date: August 20th
+event-date: August 24th
 location: MaxCDN
 tag-line: Contribute to open source!
 rsvp: https://www.meetup.com/la-fullstack/events/233276392/
@@ -10,10 +10,10 @@ rsvp: https://www.meetup.com/la-fullstack/events/233276392/
 Join us to dive into open source projects. Get ready to roll up your sleeves
 and get to the code.
 
-Fullstack OpenSource event is about leveling up your skills throu contributions to open source software.
+Fullstack LA OpenSource event is about leveling up your skills thru
+contributions to open source software.
 
-Everyone is encouraged to improve open source projects and
-submit a pull requests.
+{% include events/mapillary.md %}
 
 If you're a seasoned open source committer/maintainer, we love you, come show
 us how it's done (we are a truly captive audience). If you have never pushed
