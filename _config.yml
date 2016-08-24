@@ -53,6 +53,7 @@ address:
 markdown: kramdown
 sass:
     sass_dir: _sass
+future: true
 
 collections:
   events:
