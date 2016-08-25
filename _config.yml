@@ -25,7 +25,7 @@ people:
       url: https://twitter.com/machikoyasuda
     - title: github
       url: https://github.com/machikoyasuda
-    - title: gears
+    - title: flash
       url: http://machikoyasuda.github.io/work/
 
 - name: Kit Pearson
@@ -36,8 +36,8 @@ people:
       url: https://twitter.com/kit_pearson
     - title: github
       url: https://github.com/kpearson
-    - title: desktop
-      url: https://www.linkedin.com/in/kit-pearson-2228977
+    - title: globe
+      url: https://www.trialanderror.io
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -53,7 +53,7 @@ address:
 markdown: kramdown
 sass:
     sass_dir: _sass
-
+future: true
 
 collections:
   events:

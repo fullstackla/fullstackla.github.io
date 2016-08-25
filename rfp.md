@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: Call For Proposals
+title: Request For Proposals
 ---
 
 Have an open source project you want to bring some attention to?
@@ -15,7 +15,7 @@ We are looking for speakers to present open source projects that they are deeply
 
 ## What projects?
 
-Ideal projects for this event will be under active development and have a vibrant, inclusive community. Project which gain the biggest benefit from being the focus of a FullstackLA event have clearly stated goals as well as documentation on how to get set up to contribute. If a project requires deep domain knowledge to get started, it's likely difficult to fit within the FullstackLA format. We see a tremendous value in a written code of conduct. 
+Ideal projects for this event will be under active development and have a vibrant, inclusive community. Project which gain the biggest benefit from being the focus of a FullstackLA event have clearly stated goals as well as documentation on how to get set up to contribute. If a project requires deep domain knowledge to get started, it's likely difficult to fit within the FullstackLA format. We see a tremendous value in a written code of conduct.
 
 Part of the FullstackLA's mission is to bring new contributors of all levels to your open source project. While some projects are clearly the territory of the more experienced devs, we hope even the more mature projects can carve out some issues and mindshare for the newbies. 
 
