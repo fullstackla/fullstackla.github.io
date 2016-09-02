@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  {% include navbar.html %}
+
+  <div id="event" class="index">
+    <div class="jumbotron event-title">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Fullstack LA Open Source</h1>
+            <h2>
+              Join us {{ page.event-date }}
+              {% if page.location != nil %}
+                at {{ page.location }}
+              {% endif %}
+            </h2>
+          </div>
+          <div class="col-lg-6 excerpt">
+            {{ page.excerpt }}
+          </div>
+          <div class="col-lg-6 event-rsvp">
+            {% include event-rsvp.html rsvp=page.rsvp %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include sponsors.html %}
+    <div class="event-block">
+      <div class="container">
+        <div class="row event-icon">
+          <div class="col-lg-6">
+            <h2>Open Source Event</h2>
+            {% include events/open-source-description.html %}
+          </div>
+          <div class="col-lg-6">
+            <img class="icon-img" src="/assets/icons/code-machine.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="event-block featured-project">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-2">
+            <div class="image-cropper">
+              <img class="speaker-img" src={{ page.twitter-image }}>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2>This week</h2>
+            <h4>{{ page.title }}</h4>
+            {{ content }}
+            {{ page.location }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="event-block">
+      <div class="container">
+        <div class="row event-icon">
+          <div class="col-lg-4">
+            <img class="icon-img smaller-icon" src="/assets/icons/tools.svg">
+            {% include events/open-source-bring.html %}
+          </div>
+          <div class="col-lg-4">
+            <img class="icon-img smaller-icon" src="/assets/icons/pairing.svg">
+            {% include events/open-source-pair-programing.html %}
+          </div>
+          <div class="col-lg-4">
+            <img class="icon-img smaller-icon" src="/assets/icons/speaker.svg">
+            {% include events/open-source-rfp-blurb.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</html>
+
