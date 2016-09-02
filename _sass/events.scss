@@ -1,3 +1,4 @@
+// Home page event excerpt.
 .event {
   background-color: lightgrey;
   margin-bottom: 2em;
@@ -22,3 +23,80 @@
   margin: .5em -1.3em .0em .0em;
   padding: .25em 1em .25em 1em;
 }
+
+// Event page style.
+body #event {
+  background-color: #f8f8ff;
+  .event-title {
+    color: #f8f8ff;
+    background-color: #1a1a1a;
+    padding-top: 13em;
+    padding-bottom: 6em;
+  }
+  .icon-img {
+    display: block;
+    max-width: 14em;
+    margin: auto;
+  }
+  .smaller-icon {
+    max-width: 8em;
+  }
+  .image-cropper {
+    width: 14em;
+    height: 14em;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .speaker-img {
+    display: inline;
+    margin: 0 auto;
+    padding: 40px 0 0 25px;
+    max-width: 75%;
+    transform: scale(2);
+  }
+  .event-map {
+    background-color: lightgray;
+  }
+  .event-block-inner {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    min-height: 100%
+  }
+  .event-icon {
+    display: flex;
+    align-items: center;
+  }
+  .excerpt {
+    vertical-align: bottom;
+  }
+  .sponsors {
+    background-color: #fff;
+  }
+  .rsvp {
+    margin: 3em;
+  }
+  .jumbotron {
+    margin-bottom: 0;
+  }
+  .featured-project {
+    background-color: lightgray;
+    margin: 2% 0 2% 0;
+    padding-top: 2%;
+  }
+}
+
+#event h2 {
+    color: #f8f8ff !important;
+}
+
+#event .event-block h2 {
+    color: black !important;
+}
+
+#event.index {
+  margin-top: -10px;
+  text-decoration: none;
+  border-bottom: none !important;
+}
+

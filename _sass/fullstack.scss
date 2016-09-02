@@ -68,13 +68,6 @@ h6 {
     transition: all 2s ease;
 }
 
-img:hover {
-    max-width: 14em;
-    max-height: 3em;
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-
 .text-logo-centered {
     color: gray;
     font-size: 2em;
@@ -82,7 +75,6 @@ img:hover {
     -webkit-transition: all 2s;
     transition: all 2s ease;
 }
-
 
 .text-logo-centered:hover {
     color: gray;
@@ -691,7 +683,7 @@ section h3.section-subheading {
 
 aside.sponsors img {
     margin: 50px auto;
-    max-height: 9em;
+    max-height: 20%;
 }
 
 aside.friends {
@@ -909,6 +901,3 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: $primary;
-}
