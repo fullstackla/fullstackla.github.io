@@ -1,11 +1,11 @@
 ---
 layout: repeat-event
 title: Johan Gyllenspetz introduces Mapillary
-event-date: September 21th
+event-date: September 21st
 location: 8th Light
 tag-line: Talk about Falcor/Mapillary/etc
 rsvp: http://www.meetup.com/la-fullstack/events/233276393/
-twitter-image: https://pbs.twimg.com/profile_images/2373368709/1n6soromrqqzzw6jl9el_200x200.jpeg
+image: https://pbs.twimg.com/profile_images/2373368709/1n6soromrqqzzw6jl9el_400x400.jpeg
 ---
 
 Fullstack LA is proud to host [Johan Gyllenspetz]

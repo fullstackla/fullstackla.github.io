@@ -29,7 +29,7 @@
     {% include sponsors.html %}
     <div class="event-block">
       <div class="container">
-        <div class="row event-icon">
+        <div class="row event-flex">
           <div class="col-lg-6">
             <h2>Open Source Event</h2>
             {% include events/open-source-description.html %}
@@ -42,17 +42,20 @@
     </div>
     <div class="event-block featured-project">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-lg-offset-2">
-            <div class="image-cropper">
-              <img class="speaker-img" src={{ page.twitter-image }}>
+        <div class="row event-flex">
+          <div class="col-lg-6">
+            <div class="image-cropper event-flex">
+              <img class="speaker-img" style="{{ page.image-style }}" src={{ page.image }}>
             </div>
           </div>
           <div class="col-lg-6">
-            <h2>This week</h2>
-            <h4>{{ page.title }}</h4>
+            <h2>{{ page.title }}</h2>
             {{ content }}
+<<<<<<< HEAD
             <p>Location: {{ page.location }}</p>
+=======
+            We will be at <strong>{{ page.location }}</strong>
+>>>>>>> master
           </div>
         </div>
       </div>
