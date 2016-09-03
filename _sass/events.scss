@@ -35,24 +35,30 @@ body #event {
   }
   .icon-img {
     display: block;
-    max-width: 14em;
+    max-width: 15vw;
     margin: auto;
   }
   .smaller-icon {
     max-width: 8em;
   }
   .image-cropper {
-    width: 14em;
-    height: 14em;
+    width: 20vw;
+    height: 20vw;
     overflow: hidden;
     border-radius: 50%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: white;
   }
   .speaker-img {
-    display: inline;
-    margin: 0 auto;
-    padding: 40px 0 0 25px;
-    max-width: 75%;
-    transform: scale(2);
+    display: block;
+    max-width: 20vw;
+    transform: scale(1);
+  }
+  .event-flex {
+    display: flex;
+    align-items: center;
   }
   .event-map {
     background-color: lightgray;
@@ -62,10 +68,6 @@ body #event {
     vertical-align: middle;
     float: none;
     min-height: 100%
-  }
-  .event-icon {
-    display: flex;
-    align-items: center;
   }
   .excerpt {
     vertical-align: bottom;
@@ -81,8 +83,13 @@ body #event {
   }
   .featured-project {
     background-color: lightgray;
+    a {
+      // color: blue;
+    }
+  }
+  .event-block {
     margin: 2% 0 2% 0;
-    padding-top: 2%;
+    padding: 2% 0 2% 0;
   }
 }
 
