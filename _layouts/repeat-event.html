@@ -13,7 +13,7 @@
             <h2>
               Join us {{ page.event-date }}
               {% if page.location != nil %}
-                at {{ page.location }}
+                at {{ page.location-name }}
               {% endif %}
             </h2>
           </div>
@@ -51,7 +51,7 @@
           <div class="col-lg-6">
             <h2>{{ page.title }}</h2>
             {{ content }}
-            We will be at <strong>{{ page.location }}</strong>
+            We will be at <strong>{{ page.location-name }}</strong>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@
             {% include events/open-source-bring.html %}
           </div>
           <div class="col-lg-4">
-            <img class="icon-img smaller-icon" src="/assets/icons/pairing.svg">
+            <img class="icon-img smaller-icon" src="/assets/icons/pair-programing.svg">
             {% include events/open-source-pair-programing.html %}
           </div>
           <div class="col-lg-4">
@@ -74,7 +74,19 @@
         </div>
       </div>
     </div>
+    <div class="event-block location">
+      {% include events/open-source-location.html %}
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+          </div>
+          <div class="col-lg-6">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   {% include footer.html %}
 </html>
+
 

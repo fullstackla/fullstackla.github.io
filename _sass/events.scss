@@ -25,6 +25,12 @@
 }
 
 // Event page style.
+
+#map {
+    width: 100%;
+    height: 35em;
+}
+
 body #event {
   background-color: #f8f8ff;
   .event-title {
