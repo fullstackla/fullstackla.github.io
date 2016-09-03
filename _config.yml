@@ -4,10 +4,9 @@ baseurl: # /pairing-meetup
 # Site settings
 title: Fullstack LA
 email:
-description: "DTLA pair programming night MeetUp. We are a meet up in downtown
-              LA focusing on pair programming. the meetup time consists of
-              coding challenges found in katrina owens' exercism.io. we also
-              use exercism.io to build community outside of the meetup."
+description: "Fullstack LA is a meetup focusing on open source projects through 
+              pair programming. Each meetup consists of working on open source 
+              projects that help us level up our skills and become better coders."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
