@@ -2,7 +2,8 @@
 layout: repeat-event
 title: Johan Gyllenspetz introduces Mapillary
 event-date: September 21st
-location: 8th Light
+location: "34.056446, -118.253927"
+location-name: 8th Light
 tag-line: Talk about Falcor/Mapillary/etc
 rsvp: http://www.meetup.com/la-fullstack/events/233276393/
 image: https://pbs.twimg.com/profile_images/2373368709/1n6soromrqqzzw6jl9el_400x400.jpeg
