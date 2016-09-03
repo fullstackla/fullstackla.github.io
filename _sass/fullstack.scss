@@ -901,3 +901,12 @@ img::-moz-selection {
     background: 0 0;
 }
 
+//Custom CSS
+div.values {
+    text-align: center;
+    margin-top: 1.5em;
+
+    & dt {
+        margin-top: 1.5em;
+    }
+}
