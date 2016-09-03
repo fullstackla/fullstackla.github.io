@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/fullstackla/fullstackla.github.io.png?label=ready&title=Ready)](https://waffle.io/fullstackla/fullstackla.github.io)
 # Fullstack LA
 
 Fullstack LA's main web site.
