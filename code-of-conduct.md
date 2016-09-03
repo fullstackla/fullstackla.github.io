@@ -5,8 +5,6 @@ layout: pages
 Code of Conduct
 ===============
 
-Our code of conduct is inspired by the same values as [Girl Develop It](https://www.girldevelopit.com/code-of-conduct){:target="_blank"}.
-
 **PURPOSE**
 
 Fullstack LA provides: 
@@ -49,5 +47,5 @@ Teachers, event organizers, volunteers, and hosts are also subject to the anti-h
 
 If a participant engages in harassing behavior, the &#91;Fullstack LA&#93; organizers may take any action they deem appropriate, including warning the offender or expelling them from the class/event/meetup group.
 
-
+Our code of conduct is inspired by the same values as [Girl Develop It](https://www.girldevelopit.com/code-of-conduct){:target="_blank"}.
 
