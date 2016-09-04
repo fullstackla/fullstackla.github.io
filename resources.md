@@ -7,17 +7,17 @@ Fullstack LA Resources
 
 **Open Source Projects**
 
-+ [Exercism.io \| Level Up Your Programming Skills](http://exercism.io/){:target="_blank"}
-+ [Hood.ie \| A Generic Backend with a Client API for Offline First Applications](http://hood.ie/){:target="_blank"}
-+ [Homebrew \| The Missing Package Manager for OS X](https://github.com/Homebrew/brew/){:target="_blank"}
-+ [Mapillary \| Crowdsourced Street Photos](https://www.mapillary.com/){:target="_blank"}
-+ [homeslice](https://github.com/andytlr/homeslice){:target="_blank"}
++ [Exercism.io \| Level Up Your Programming Skills](http://exercism.io/){:target="blank"}
++ [Hood.ie \| A Generic Backend with a Client API for Offline First Applications](http://hood.ie/){:target="blank"}
++ [Homebrew \| The Missing Package Manager for OS X](https://github.com/Homebrew/brew/){:target="blank"}
++ [Mapillary \| Crowdsourced Street Photos](https://www.mapillary.com/){:target="blank"}
++ [homeslice](https://github.com/andytlr/homeslice){:target="blank"}
 
 
 **Coding**
 
-+ [Coderbyte](https://coderbyte.com/){:target="_blank"}
-+ [Exercism.io \| Level Up Your Programming Skills](http://exercism.io/){:target="_blank"}
++ [Coderbyte](https://coderbyte.com/){:target="blank"}
++ [Exercism.io \| Level Up Your Programming Skills](http://exercism.io/){:target="blank"}
 + [Code Quizzes](http://www.codequizzes.com/){:target="_blank"}
 + [Learn Code The Hard Way](https://learncodethehardway.org/){:target="_blank"}
 + [Codewars \| Train with Programming Challenges/Kata](https://www.codewars.com/){:target="_blank"}
@@ -85,4 +85,3 @@ Fullstack LA Resources
 **General**
 
 + [Awesome Awesomeness: A curated list of amazingly awesome awesomeness.](https://github.com/bayandin/awesome-awesomeness){:target="_blank"}
-

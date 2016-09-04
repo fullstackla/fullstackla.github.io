@@ -97,6 +97,19 @@ body #event {
     margin: 2% 0 2% 0;
     padding: 2% 0 2% 0;
   }
+  .location {
+    margin: 0;
+    padding: 0;
+  }
+  .parking-outer {
+    margin-left: 20em;
+    margin-right: 5em;
+  }
+  .parking {
+    background-color: rgba(153, 153, 153, 0.8);
+    padding: .2em 1em 1em 1em;
+    margin-top: -32em;
+  }
 }
 
 #event h2 {
