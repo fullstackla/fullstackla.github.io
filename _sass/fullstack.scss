@@ -901,3 +901,25 @@ img::-moz-selection {
     background: 0 0;
 }
 
+//Custom CSS
+div.values {
+    text-align: center;
+    margin-top: 1.5em;
+
+    & dt {
+        margin-top: 1.5em;
+    }
+}
+
+div#page {
+    & h1:first-of-type,
+    & h2:first-of-type,
+    & h3:first-of-type,
+    & h4:first-of-type,
+    & h5:first-of-type,
+    & h6:first-of-type, {
+        margin-top: 2em;
+    }
+
+
+}
