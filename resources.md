@@ -20,6 +20,7 @@ Fullstack LA Resources
 + [Exercism.io \| Level Up Your Programming Skills](http://exercism.io/){:target="_blank"}
 + [Code Quizzes](http://www.codequizzes.com/){:target="_blank"}
 + [Learn Code The Hard Way](https://learncodethehardway.org/){:target="_blank"}
++ [Codewars \| Train with Programming Challenges/Kata](https://www.codewars.com/){:target="_blank"}
 
 
 **CSS Resources**
@@ -43,6 +44,7 @@ Fullstack LA Resources
 + [Regular Expression Library](http://regexlib.com/){:target="_blank"}
 + [RegExr](http://regexr.com/){:target="_blank"}
 + [Regular-Expressions.info](http://www.regular-expressions.info/){:target="_blank"}
++ [Rubular: A Ruby Regular Expression Editor](http://rubular.com/){:target="_blank"}
 
 
 **Git & Terminal Resources**
@@ -56,7 +58,7 @@ Fullstack LA Resources
 **Tools**
 
 + [Google Developers \| Web](https://developers.google.com/web/){:target="_blank"}
-+ [vhf/free-programming-books: Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/{:target="_blank"}free-programming-books.md){:target="_blank"}
++ [vhf/free-programming-books: Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md){:target="_blank"}
 + [4096 Color Wheel](http://www.ficml.org/jemimap/style/color/wheel.html){:target="_blank"}
 + [147colors.com](http://www.147colors.com/grid/){:target="_blank"}
 + [PxtoEM.com \| PX to EM Conversion Made Simple](http://pxtoem.com/){:target="_blank"}
@@ -76,7 +78,7 @@ Fullstack LA Resources
 + [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide){:target="_blank"}
 + [Python Documentation \| Python Software Foundation](https://docs.python.org){:target="_blank"}
 + [CSS Reference \| Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference){:target="_blank"}
-+ [JavaScript Methods Index \| Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference{:target="_blank"}/Methods_Index){:target="_blank"}
++ [JavaScript Methods Index \| Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index){:target="_blank"}
 + [Daring Fireball: Markdown](http://daringfireball.net/projects/markdown/){:target="_blank"}
 
 
