@@ -67,7 +67,6 @@ h6 {
     -webkit-transition: max-width 2s, -webkit-filter 3s;
     transition: all 2s ease;
 }
-
 .text-logo-centered {
     color: gray;
     font-size: 2em;
@@ -901,7 +900,10 @@ img::-moz-selection {
     background: 0 0;
 }
 
-//Custom CSS
+body {
+    webkit-tap-highlight-color: $primary;
+}
+
 div.values {
     text-align: center;
     margin-top: 1.5em;
@@ -920,6 +922,4 @@ div#page {
     & h6:first-of-type, {
         margin-top: 2em;
     }
-
-
 }
