@@ -2,7 +2,7 @@
 layout: repeat-event
 title: Johan Gyllenspetz introduces Mapillary
 event-date: September 21st
-location: "34.056446, -118.253927"
+location: [34.056446, -118.253927]
 location-name: 8th Light
 parking: events/parking/8thlight.html
 tag-line: Talk about Falcor/Mapillary/etc
