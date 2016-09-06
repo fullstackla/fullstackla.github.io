@@ -39,6 +39,11 @@ body #event {
     padding-top: 13em;
     padding-bottom: 6em;
   }
+  @media (max-width: 767px) {
+    .event-title {
+      padding-top: 5em;
+    }
+  }
   .icon-img {
     display: block;
     max-width: 15vw;
@@ -62,6 +67,15 @@ body #event {
     max-width: 20vw;
     transform: scale(1);
   }
+  @media (max-width: 600px) {
+    .image-cropper {
+      width: 30vw;
+      height: 30vw;
+    }
+    .speaker-img {
+      max-width: 30vw;
+    }
+  }
   .event-flex {
     display: flex;
     align-items: center;
@@ -82,16 +96,13 @@ body #event {
     background-color: #fff;
   }
   .rsvp {
-    margin: 3em;
+    margin: 1em;
   }
   .jumbotron {
     margin-bottom: 0;
   }
   .featured-project {
     background-color: lightgray;
-    a {
-      // color: blue;
-    }
   }
   .event-block {
     margin: 2% 0 2% 0;
@@ -102,13 +113,19 @@ body #event {
     padding: 0;
   }
   .parking-outer {
-    margin-left: 20em;
-    margin-right: 5em;
+    position: relative;
+  }
+  .parking-inner {
+    position: absolute;
+    top: 3em;
+    z-index: 999;
+    background-color: rgba(153, 153, 153, 0.8);
+    padding: .2em 1em 1em 1em;
   }
   .parking {
     background-color: rgba(153, 153, 153, 0.8);
     padding: .2em 1em 1em 1em;
-    margin-top: -32em;
+    margin-right: 13em;
   }
 }
 

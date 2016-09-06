@@ -9,19 +9,20 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h1>Fullstack LA Open Source</h1>
-            <h2>
+            <h1 class="display-3">Fullstack LA Open Source</h1>
+            <hr class="m-y-5">
+            <p class="lead">
               Join us {{ page.event-date }}
               {% if page.location != nil %}
                 at {{ page.location-name }}
               {% endif %}
-            </h2>
+            </p>
           </div>
           <div class="col-lg-6 excerpt">
             {{ page.excerpt }}
-          </div>
-          <div class="col-lg-6 event-rsvp">
-            {% include event-rsvp.html rsvp=page.rsvp %}
+            <div class="col-lg-7 col-lg-offset-5">
+              {% include event-rsvp.html rsvp=page.rsvp %}
+            </div>
           </div>
         </div>
       </div>
@@ -42,17 +43,19 @@
     </div>
     <div class="event-block featured-project">
       <div class="container">
-        <div class="row event-flex">
+        <div class="row">
           <div class="col-lg-6">
             <div class="image-cropper event-flex">
-              <img class="speaker-img" style="{{ page.image-style }}" src={{ page.image }}>
+              <a href={{ page.link }}>
+                <img class="speaker-img" style="{{ page.image-style }}" src={{ page.image }}>
+              </a>
             </div>
           </div>
-          <div class="col-lg-6">
-            <h2>{{ page.title }}</h2>
-            {{ content }}
-            We will be at <strong>{{ page.location-name }}</strong>
-          </div>
+            <div class="col-lg-6">
+              <h2>{{ page.title }}</h2>
+              {{ content }}
+              We will be at <strong>{{ page.location-name }}</strong>
+            </div>
         </div>
       </div>
     </div>
@@ -75,15 +78,15 @@
       </div>
     </div>
     <div class="event-block location">
-      {% include events/open-source-location.html %}
-      <div class="row parking-outer">
-        <div class="col-lg-6 col-md-8 col-sm-10">
-        </div>
-        <div class="col-lg-6 col-md-4 col-sm-2 parking">
-          <h3>Parking</h3>
-          {% include {{ page.parking }} %}
+      <div class="container-fluid">
+        <div class="row parking-outer">
+          <div class="col-lg-4 col-lg-offset-7 col-sm-6 col-sm-offset-6 col-xs-12 parking-inner">
+            <h3>Parking</h3>
+            <p>{% include {{ page.parking }} %}</p>
+          </div>
         </div>
       </div>
+      {% include events/open-source-location.html %}
     </div>
   </div>
   {% include footer.html %}

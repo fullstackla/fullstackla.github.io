@@ -1,13 +1,17 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUjtebmxjKbmP1d2a_XJ36p0WJ6I0rhh8"></script>
 
 <script type="text/javascript">
+
+    var centerLng = {{ page.location | last }} + (window.innerWidth > 770 ? 0.01 : 0);
+    var centerLat = {{ page.location | first }} + (window.innerWidth < 770 ? 0.003 : 0);
+
     google.maps.event.addDomListener(window, 'load', init);
 
     function init() {
         var mapOptions = {
             zoom: 15,
             scrollwheel: false,
-            center: new google.maps.LatLng({{page.location | first }}, {{ page.location | last | plus: 0.01 }}),
+            center: new google.maps.LatLng(centerLat, centerLng),
 
             styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
         };
