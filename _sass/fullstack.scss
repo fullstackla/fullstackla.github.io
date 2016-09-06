@@ -62,10 +62,10 @@ h6 {
     margin: 0 auto;
     max-width: 13em;
     max-height: 2em;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: max-width 2s, -webkit-filter 3s;
-    transition: all 2s ease;
+    // -webkit-filter: grayscale(100%);
+    // filter: grayscale(100%);
+    // -webkit-transition: max-width 2s, -webkit-filter 3s;
+    // transition: all 2s ease;
 }
 .text-logo-centered {
     color: gray;
