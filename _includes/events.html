@@ -7,6 +7,7 @@
     </div>
     <div class="row">
       {% for event in site.events %}
+
       <div class="col-lg-10 col-lg-offset-1 event">
         <div class="col-lg-6">
           <a href={{event.url}}>
@@ -14,16 +15,14 @@
           </a>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-3">
           {% include event-rsvp.html rsvp=event.rsvp %}
         </div>
 
         <div class="col-lg-12">
         <h4>
           Join us {{ event.event-date }}
-          {% if event.location != nil %}
-            at {{ event.location }}
-          {% endif %}
+            at {{ event.location-name }}
         </h4>
           {{ event.excerpt }}
         </div>
