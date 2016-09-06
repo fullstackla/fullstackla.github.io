@@ -103,9 +103,6 @@ body #event {
   }
   .featured-project {
     background-color: lightgray;
-    a {
-      // color: blue;
-    }
   }
   .event-block {
     margin: 2% 0 2% 0;
@@ -124,7 +121,6 @@ body #event {
     z-index: 999;
     background-color: rgba(153, 153, 153, 0.8);
     padding: .2em 1em 1em 1em;
-    // transform: translate(0, -30em);
   }
   .parking {
     background-color: rgba(153, 153, 153, 0.8);
