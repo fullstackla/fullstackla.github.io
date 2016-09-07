@@ -18,7 +18,9 @@
 
           <h4>
             Join us {{ event.event-date }}
+            {% if event.location-name != nil %}
               at {{ event.location-name }}
+            {% endif %}
           </h4>
             {{ event.excerpt }}
         </div>
