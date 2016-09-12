@@ -2,7 +2,9 @@
 .event {
   background-color: lightgrey;
   margin-bottom: 2em;
+  padding: 1em;
 }
+
 
 #events {
   h2 {
@@ -16,11 +18,14 @@
   a:hover {
     color: black;
   }
+  .rsvp a {
+    color: #fff;
+  }
 }
 
 .rsvp {
   border-radius: 5px;
-  margin: .5em -1.3em .0em .0em;
+  margin-top: 1.5em;
   padding: .25em 1em .25em 1em;
 }
 
@@ -141,5 +146,16 @@ body #event {
   margin-top: -10px;
   text-decoration: none;
   border-bottom: none !important;
+}
+
+@media (max-width: 1024px) {
+  body {
+    section {
+      padding: 4em 0;
+    }
+  }
+  #events h2 {
+    margin-bottom: 10px;
+  }
 }
 
