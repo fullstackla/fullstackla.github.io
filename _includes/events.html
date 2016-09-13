@@ -6,31 +6,16 @@
       </div>
     </div>
     <div class="row">
-      {% for event in site.events %}
-
-      <div class="col-lg-10 col-lg-offset-1 event clearfix">
-
-        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-        
-          <a href={{event.url}}>
-            <h1>{{ event.title }}</h1>
-          </a>
-
-          <h4>
-            Join us {{ event.event-date }}
-            {% if event.location-name != nil %}
-              at {{ event.location-name }}
-            {% endif %}
-          </h4>
-            {{ event.excerpt }}
-        </div>
-
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-          {% include event-rsvp.html rsvp=event.rsvp %}
-        </div>
-
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3>Ongoing events</h3>
       </div>
-      {% endfor %}
+      {% include events/open-source-event-list.html event-type="os-repeat-event" %}
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3>Onetime events</h3>
+      </div>
+      {% include events/open-source-event-list.html event-type="os-single-event" %}
     </div>
   </div>
 </section>

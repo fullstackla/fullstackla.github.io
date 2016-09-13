@@ -1,5 +1,5 @@
 ---
-layout: repeat-event
+layout: os-repeat-event
 title: Johan Gyllenspetz introduces Mapillary
 event-date: September 21st
 location: [34.056446, -118.253927]
