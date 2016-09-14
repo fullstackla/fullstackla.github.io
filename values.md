@@ -17,7 +17,7 @@ Or if you’ve never pushed code to an open source project, we still want you to
 
 We are Fullstack LA, and we want YOU to join us!😎
 
-Fullstack is a group of Los Angeles-based software developers focused on developing web skills by contributing to open source projects. We're deeply committed to open source and believe pair programming on open source projects is the best way to foster new skills.
+Fullstack LA is a group of Los Angeles-based software developers focused on developing web skills by contributing to open source projects. We're deeply committed to open source and believe pair programming on open source projects is the best way to foster new skills.
 
 We love well crafted open software. Our commitment to open source drives the focus of our events and future projects. We invite everyone with the same commitment to openness to contribute to our projects and help achieve our future goals.
 
