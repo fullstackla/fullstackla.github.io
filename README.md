@@ -1,6 +1,6 @@
-# Fullstack LA
-
 [![Stories in Ready](https://badge.waffle.io/fullstackla/fullstackla.github.io.png?label=ready&title=Ready)](https://waffle.io/fullstackla/fullstackla.github.io)  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg)](https://github.com/ellerbrock/open-source-badge/)
+
+# Fullstack LA
 
 Fullstack LA's main web site.
 
@@ -44,3 +44,5 @@ image: place image assets in **/img/events** dir
     + Additional instructions for the event (if any).
 
 5. Save the file and voilà, you've created a new event on the FSLA website! 👍👏
+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
