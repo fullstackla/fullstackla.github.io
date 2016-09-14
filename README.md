@@ -17,32 +17,47 @@ This site is built on [Jekyll] and hosted on [Github pages].
 
 [exercism.io]: http://exercism.io/
 [Jekyll]: https://jekyllrb.com/
-[Github pages]: https://pages.github.com/
+[Github Pages]: https://pages.github.com/
 
-## To Add Future Events to the Main Site:
+## Adding new Events
 
-1. Go to the `_events` folder with the `$ cd _events` command in the Terminal.
+Creating a new event is as simple as adding a new markdown file to the events directory. The simplest way is probably, to
+duplicate an existing event and change a few things. The steeps below cover the essential unique attributes of an event.
 
-2. Use the `$ touch` command in the Terminal to create a new markdown file with the following name syntax: `year-month-day-name.md`. For example, you can name the file: `$ touch 2016-09-21-mapillary.md`. 
+### File name and location
 
-3. The first thing that must appear in the file is a [YAML front matter block](https://jekyllrb.com/docs/frontmatter/). It's a block that opens with three `---` dashes and closes with three `---` dashes. The inside of the block should contain the information below. **Make sure to specify in the layout** whether it's an ongoing event by entering `os-repeat-event` or a onetime event by entering `os-single-event`.
-<pre>`---`
-layout: **os-repeat-event** or **os-single-event**
-title: 
-event-date: 
-location: can be geolocation formatted as [34.056446, -118.253927]
-location-name: 
-parking: info should be an html file located in **events/parking** dir
-tag-line: 
-rsvp: link to FSLA meetup.com URL event page
-image: place image assets in **/img/events** dir
-`---`</pre>
+Following the naming convention: `year-month-day-name.md`. _The naming convention is critical. Jekyll uses the file name to know how to handle the file._  For example, you can name the file: `$ touch 2016-09-21-mapillary.md`.
 
-4. There should be one space between the closing `---` dashes and the first sentence of the body. Enter a brief description of the event. It should have:
+### YAML Frontmatter
 
-    + A few sentences describing the event, with an external link to the speaker/event.
-    + Additional instructions for the event (if any).
+The first thing that must appear in the file is a [YAML front matter block](https://jekyllrb.com/docs/frontmatter/). It's a block that opens with three `---` dashes and closes with three `---` dashes. The inside of the block should contains a list of variables which are user when the page is rendered. **Make sure to specify in the layout** whether it's an ongoing event by entering `os-repeat-event` or a onetime event by entering `os-single-event`.
+  
++ layout        - The layout used for the event. Available layouts are located in the `/_layouts` directory.
++ title         - The title of the event.
++ event-date    - e.g. __September 21st__
++ location      - Exact GPS cordance. Must be formatted in an array. e.g. __[34.056446, -118.253927]__
++ location-name - Name of location. String with or without quotes.
++ parking       - Path to the parking include for the location. e.g. `events/parking/8thlight.html`. If your event has a never before used location, refer to the `_includes/events/parking/` for reference.
++ tag-line      - (optional) Not in use.
++ rsvp          - link to FSLA meetup.com URL event page. (At present needs to be made by @kpearson or @machiko)
++ image         - Single image asset, which should be stored in the `/img/events` directory. Usually a photo of the speaker. Sourcing and adding the image to the site repo is usual part of adding an event.
+  
+Example frontmatter:
+```yml
+---
+layout: os-repeat-event
+title: So and so introduces Supper cool project name
+event-date: September 21st
+location: [34.056446, -118.253927]
+location-name: 8th Light
+parking: events/parking/8thlight.html
+tag-line: Talk about Falcor/Mapillary/etc
+rsvp: http://www.meetup.com/la-fullstack/events/233276393/
+image: https://pbs.twimg.com/profile_images/2373368709/1n6soromrqqzzw6jl9el_400x400.jpeg
+---
+```
 
-5. Save the file and voilà, you've created a new event on the FSLA website! 👍👏
-
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
++ Event Description
+  + A few sentences describing the project and the speaker(if any) include external link to the speaker and project.
+  + Additional instructions for the event, like what to clone down.
++ Save the file and voilà, you've created a new event on the FSLA website! 👍👏
