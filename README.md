@@ -1,5 +1,6 @@
-[![Stories in Ready](https://badge.waffle.io/fullstackla/fullstackla.github.io.png?label=ready&title=Ready)](https://waffle.io/fullstackla/fullstackla.github.io)
 # Fullstack LA
+
+[![Stories in Ready](https://badge.waffle.io/fullstackla/fullstackla.github.io.png?label=ready&title=Ready)](https://waffle.io/fullstackla/fullstackla.github.io)  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg)](https://github.com/ellerbrock/open-source-badge/)
 
 Fullstack LA's main web site.
 
