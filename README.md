@@ -15,9 +15,22 @@ high level of participant engagement.
 
 This site is built on [Jekyll] and hosted on [Github pages].
 
-[exercism.io]: http://exercism.io/
 [Jekyll]: https://jekyllrb.com/
 [Github Pages]: https://pages.github.com/
+
+
+## Getting setup
+
+It is helpful to have [Bundler] and either [rbenv] or [RVM] installed. If you do, all you have to do to get up and running is clone the repository and run the following commands:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+[Bundler]: http://bundler.io/
+[rbenv]: http://rbenv.org/
+[RVM]: https://rvm.io/
 
 ## Adding new Events
 
@@ -31,7 +44,7 @@ Following the naming convention: `year-month-day-name.md`. _The naming conventio
 ### YAML Frontmatter
 
 The first thing that must appear in the file is a [YAML front matter block](https://jekyllrb.com/docs/frontmatter/). It's a block that opens with three `---` dashes and closes with three `---` dashes. The inside of the block should contains a list of variables which are user when the page is rendered. **Make sure to specify in the layout** whether it's an ongoing event by entering `os-repeat-event` or a onetime event by entering `os-single-event`.
-  
+
 + layout        - The layout used for the event. Available layouts are located in the `/_layouts` directory.
 + title         - The title of the event.
 + event-date    - e.g. __September 21st__
@@ -41,7 +54,7 @@ The first thing that must appear in the file is a [YAML front matter block](http
 + tag-line      - (optional) Not in use.
 + rsvp          - link to FSLA meetup.com URL event page. (At present needs to be made by @kpearson or @machiko)
 + image         - Single image asset, which should be stored in the `/img/events` directory. Usually a photo of the speaker. Sourcing and adding the image to the site repo is usual part of adding an event.
-  
+
 Example frontmatter:
 ```yml
 ---
