@@ -15,7 +15,6 @@ high level of participant engagement.
 
 This site is built on [Jekyll] and hosted on [Github pages].
 
-[exercism.io]: http://exercism.io/
 [Jekyll]: https://jekyllrb.com/
 [Github Pages]: https://pages.github.com/
 
