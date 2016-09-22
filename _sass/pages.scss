@@ -1,0 +1,40 @@
+@media (min-width: 40rem) {
+  div.values {
+    margin: 0 auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  div.column {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  div.half {
+    width: 40%;
+  }
+}
+
+div.column {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+@media (min-width: 40rem) {
+  .column.flow-opposite { float: right; }
+}
