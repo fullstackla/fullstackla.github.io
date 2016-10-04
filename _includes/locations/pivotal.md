@@ -1,1 +1,1 @@
-This week we will be at 8th Light in Downtown Los Angeles.
+This event will be held at Pivotal Labs in Santa Monica.
