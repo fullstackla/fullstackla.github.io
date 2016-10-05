@@ -13,9 +13,9 @@
             <hr class="m-y-5">
             <p class="lead">
               Join us {{ page.event-date }}
-              {% if page.location != nil %}
+              {% unless page.location == nil %}
                 at {{ page.location-name }}
-              {% endif %}
+              {% endunless %}
             </p>
           </div>
           <div class="col-lg-6 excerpt">
@@ -41,6 +41,7 @@
         </div>
       </div>
     </div>
+    {% unless page.title == 'default' %}
     <div class="event-block featured-project">
       <div class="container">
         <div class="row">
@@ -59,6 +60,7 @@
         </div>
       </div>
     </div>
+    {% endunless %}
     <div class="event-block">
       <div class="container">
         <div class="row event-icon">

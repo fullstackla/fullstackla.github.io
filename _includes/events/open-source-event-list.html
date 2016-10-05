@@ -3,7 +3,11 @@
     <div class="col-lg-10 col-lg-offset-1 event">
       <div class="col-lg-8">
         <a href={{event.url}}>
-          <h1>{{ event.title }}</h1>
+          {% unless event.title == 'default' %}
+            <h1>{{ event.title }}</h1>
+          {% else %}
+            <h1>Fullstack Open Source</h1>
+          {% endunless %}
         </a>
       </div>
       <div class="col-lg-4 text-center rsvp">
@@ -11,7 +15,8 @@
       </div>
       <div class="col-lg-12">
         <h4>
-          Join us {{ event.event-date }}
+          {{ event.event-date }}
+          join us
           {% if event.location != nil %}
             at {{ event.location-name }}
           {% endif %}
