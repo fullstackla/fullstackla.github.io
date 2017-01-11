@@ -23,7 +23,7 @@ Harassment includes:
     - physical appearance, 
     - body size, 
     - race, or 
-+ religion; 
+    - religion; 
 + sexual images in public spaces; 
 + deliberate intimidation; 
 + stalking; 
